@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Prem Kumar E" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Prem Kumar E">Prem Kumar E</h1>
+
+          <p class="title">Front End Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:pk07prem@gmail.com" class="contact-link">pk07prem@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919003812321" class="contact-link">+91 90038 12321</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-09-16">16 Sept, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Virudhunagar, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/_prem._.izax_/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/CodeAstralIzaX" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.youtube.com/@CodeAstralIzax" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a dedicated Front-End Developer from Virudhunagar, TN, India, with a strong passion for creating user-centric and visually appealing web applications. I thrive on transforming complex requirements into intuitive and functional designs, ensuring a seamless user experience.
+
+           
+          </p>
+
+          <p>
+            My expertise lies in leveraging HTML, CSS, and JavaScript to build responsive and interactive websites. My hands-on experience with React and deep learning projects, combined with a solid foundation in UI/UX principles, allows me to develop solutions that not only meet functional needs but also exceed user expectations.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Crafting modern, high-quality designs that ensure a seamless user experience and align with your brand's identity.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Developing responsive and interactive websites with a keen focus on performance, accessibility, and user engagement.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Front-End Technologies icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front-End Technologies</h4>
+
+                <p class="service-item-text">
+                  Utilizing HTML5, CSS3, JavaScript, and frameworks like React to build functional and aesthetically pleasing web applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="Logo Design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Logo Design
+                </h4>
+
+                <p class="service-item-text">
+                  Creating distinctive and memorable logos that effectively represent brand identity and convey key messages with simplicity and elegance.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sri Vidhya College of Arts and Science - Virudhunagar</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                Secretary | Department of Computer Science and Applications
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">HSR College of Distance Education</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+               Computer Science Stream
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kendriya Vidyalaya, Virudhunagar</h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+               
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KODNEST TECHNOLOGIES </h4>
+              <span>Software Developer Inter | Aug 2023 - Mar 2024</span>
+
+              <p class="timeline-text">
+                Acquired practical skills in Java, MySQL, Frontend Technology, and Manual Testing. Contributed to real-world projects and learned directly from industry professionals.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Front End Technologies</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Debugging and Testing</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Continuous Learning</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Challenge</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Challenge</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Voyage Slider" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 1 - Voyage Slider</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Dashing Blob Ball" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 2 - Dashing Blob Ball</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Resume/CV Page" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 3 - Resume/CV Page</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Ghost and Ghouls" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 4 - Ghost and Ghouls</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Menu Hover Glow" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 5 - Menu Hover Glow</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Inline CSS Form Design" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 6 - Inline CSS Form Design</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Diwali" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 7 - Diwali</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Sign Up/Login" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 8 - Sign Up/Login</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Neon Sign" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 9 - Neon Sign</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="FAQ Page" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 10 - FAQ Page</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Dark Mode Toggle" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 11 - Dark Mode Toggle</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Blur" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 12 - Blur</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Card Effort" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 13 - Card Effort</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Augmented UI" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 14 - Augmented UI</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Interactive Particles" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 15 - Interactive Particles</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Evervault Hover Effect" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 16 - Evervault Hover Effect</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Glowing Dark Card" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 17 - Glowing Dark Card</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Upload Modal" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 18 - Upload Modal</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Fluid Cursor" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 19 - Fluid Cursor</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="CSS Gravity" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 20 - CSS Gravity</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Playful" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 21 - Playful</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Hover Effect" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 22 - Hover Effect</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Skeleton Loading" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 23 - Skeleton Loading</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Blur Overlay" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 24 - Blur Overlay</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Galaxy" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 25 - Galaxy</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Drop" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 26 - Drop</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Gradient Typing" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 27 - Gradient Typing</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Liquid Revel" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 28 - Liquid Revel</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Blossoming Flowers" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 29 - Blossoming Flowers</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Hologram Effect" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 30 - Hologram Effect</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Nixie Tube Clock" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 31 - Nixie Tube Clock</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Sci-Fi Card Hover" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 32 - Sci-Fi Card Hover</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Star Trails" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 33 - Star Trails</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Tilt Blur Effect" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 34 - Tilt Blur Effect</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Accessible Tabs" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 35 - Accessible Tabs</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Alphabet Rain" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 36 - Alphabet Rain</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Animated Number Bar" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 37 - Animated Number Bar</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Neumorphism-On-Off" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 38 - Neumorphism-On-Off</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="PolarWarp-Truchet" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 39 - PolarWarp-Truchet</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Product Card" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 40 - Product Card</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Neumorphic Loading Animation" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 41 - Neumorphic Loading Animation</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            <li class="project-item active" data-filter-item data-category="challenge">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Reveal Menu Animation" loading="lazy">
+                </figure>
+                <h3 class="project-title">Day 42 - Reveal Menu Animation</h3>
+                <p class="project-category">Challenge</p>
+              </a>
+            </li>
+            
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Live Editor</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="challenge">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Day 42 - Reveal Menu Animation</h3>
+
+                <p class="project-category">Challenge</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="challenge">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Challenge</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62948.04933627233!2d77.9169906104824!3d9.573438970760472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b012c93bcb2b013%3A0xd717404a42ed026e!2sVirudhunagar%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1722884479200!5m2!1sen!2sin" 
+              width="600" height="450" loading="lazy" >
+            </iframe>
+          </figure>
+
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
