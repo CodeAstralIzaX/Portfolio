@@ -17,8 +17,5 @@ You can view a live preview of the portfolio [Here](https://premkumarpk.netlify.
 
 Below is a video showcasing the portfolio:
 
-<video width="640" height="360" controls>
-  <source src="./assets/Video/Preview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<a href="https://premkumarpk.netlify.app/" target="_blank"><img src="./assets/Gif/Preview.gif">
 
